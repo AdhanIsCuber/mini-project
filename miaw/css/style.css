@@ -1,0 +1,62 @@
+/* YOUR CUSTOM STYLES */
+body {
+	background-color: #b71c1c;
+	color: #fff;
+}
+
+.full-bg-img {
+	color: #fff;
+}
+
+.title {
+	font-weight:100;
+}
+
+.payment .fa:not(:first-child) {
+	margin-left:10px;
+	color:rgba(255,255,255,.8);
+}
+
+input[type="text"]:focus:not([readonly]) {
+	border-color:#C00;
+	box-shadow:0 1px 0 0 #C00;
+	color:#fff;
+}
+
+input[type="text"]:not([readonly])+label {
+	color:rgba(255,255,255,.65);
+}
+
+input[type="text"]:focus:not([readonly])+label {
+	color:#fff;
+}
+
+.abu-1 {
+  background: #b71c1c;
+  height: 300px;
+}
+
+.abu-2 {
+  background: #ef5350;
+  height: 300px;
+}
+
+.divider {
+  padding-top: 70px;
+}
+
+.nopadding {
+            margin-top: 0 !important;
+        }
+
+         .navbar {
+            background-color: #b71c1c;
+        }
+
+        footer.page-footer {
+            background-color: #b71c1c;
+            margin-top: 2rem;
+        }
+        .pattern-4 {
+            background-attachment: fixed;
+        }

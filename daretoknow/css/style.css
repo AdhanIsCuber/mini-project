@@ -1,0 +1,62 @@
+html,
+body,
+.view {
+    height: 100%;
+
+}
+body {
+  background-color: #222222;
+  color: #fefefe;
+}
+
+.navbar {
+    background-color: transparent;
+}
+
+.scrolling-navbar {
+    -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+    -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+    transition: background .5s ease-in-out, padding .5s ease-in-out;
+}
+
+.top-nav-collapse {
+    background-color: #222222;
+}
+
+footer.page-footer {
+    background-color: #444444;
+    margin-top: 2rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: #222222;
+    }
+}
+/*Call to action*/
+
+.flex-center {
+    color: #fff;
+}
+
+.view {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+/*Contact section*/
+
+.abu-1 {
+  background: #222222;
+  height: 300px;
+}
+
+.abu-2 {
+  background: #444444;
+  height: 300px;
+}
+
+.divider {
+  padding-top: 70px;
+}
